@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(241, 241, 241);
+    background: linear-gradient(90deg, rgba(241, 241, 241, 1) 0%, rgba(105, 244, 255, 1) 32%, rgba(78, 93, 226, 1) 100%, rgba(95, 97, 124, 1) 100%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.userCard {
+    margin-top: 40px;
+    font-size: 25px;
+    background: rgb(241, 241, 241);
+    background: linear-gradient(90deg, rgba(241, 241, 241, 1) 0%, rgba(125, 219, 238, 1) 0%, rgba(89, 212, 237, 1) 29%, rgba(32, 61, 216, 1) 100%, rgba(95, 97, 124, 1) 100%);
+    width: 400px;
+    padding: 50px;
+    line-height: 30px;
+    border-radius: 30px;
+    margin-left: 40px;
+    border: black 3px solid;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
